@@ -3,6 +3,11 @@ html, body {
   margin: 0;
 }
 
+/*----- Hard Rules -----*/
+hr {
+  width: 90%;
+}
+
 /*----- Your Own Crew -----*/
 #main-crew {
   /*Border for testing only*/
