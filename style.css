@@ -1,7 +1,39 @@
-html {
+html, body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
+
+/*----- Image Bottom of Main -----*/
+
+#main-img-bottom {
+  margin: 0;
+  padding-top: 7%;
+  min-height: 450px;
+  background-color: red;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+.img-header {
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.img-subtext {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+/*----- Testimonials Section -----*/
 .testimonials {
   /*Border for testing only
   border: 1px dashed red;*/
@@ -66,6 +98,22 @@ html {
 /*------ Responsive Design ---------*/
 
 @media (max-width: 800px) {
+
+  /*----- Image Bottom of Main RESPONSIVE - 800-----*/
+  #main-img-bottom {
+    min-height: 350px;
+  }
+
+  .img-header {
+    font-size: 50px;
+  }
+
+  .img-subtext {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  /*----- Testimonials - RESPONSIVE - 800-----*/
   .testimonials {
     /*Border for testing only*/
     /*border: 1px dashed blue;*/
@@ -93,6 +141,22 @@ html {
 }
 
 @media (max-width: 600px) {
+
+  /*----- Image Bottom of Main RESPONSIVE - 600-----*/
+  #main-img-bottom {
+    min-height: 225px;
+  }
+
+  .img-header {
+    font-size: 30px;
+  }
+
+  .img-subtext {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  /*----- Testimonials - RESPONSIVE - 600-----*/
   .testimonials {
     /*Border for testing only*/
     /*border: 1px dashed purple;*/
