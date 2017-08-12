@@ -3,9 +3,35 @@ html, body {
   margin: 0;
 }
 
+/*----- Your Own Crew -----*/
+#main-crew {
+  /*Border for testing only*/
+  border: 1px dashed red;
+  min-height: 800px;
+  position: relative;
+}
+
+#crew-text-box {
+  position: absolute;
+  margin-right: 5%;
+  left: 40%;
+  margin-top: 25%;
+}
+
+.crew-header {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: auto;
+  line-height: 100%;
+}
+
+.crew-subtext {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+}
 
 /*----- Image Bottom of Main -----*/
-
 #main-img-bottom {
   margin: 0;
   padding-top: 7%;
@@ -99,6 +125,22 @@ html, body {
 
 @media (max-width: 800px) {
 
+  /*----- Your Own Crew - RESPONSIVE - 800-----*/
+  #main-crew {
+    /*Border for testing only*/
+    border: 1px dashed blue;
+    min-height: 700px;
+  }
+
+  .crew-header {
+    font-size: 50px;
+  }
+
+  .crew-subtext {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
   /*----- Image Bottom of Main RESPONSIVE - 800-----*/
   #main-img-bottom {
     min-height: 350px;
@@ -141,6 +183,22 @@ html, body {
 }
 
 @media (max-width: 600px) {
+
+  /*----- Your Own Crew - RESPONSIVE - 800-----*/
+  #main-crew {
+    /*Border for testing only*/
+    border: 1px dashed yellow;
+    min-height: 500px;
+  }
+
+  .crew-header {
+    font-size: 30px;
+  }
+
+  .crew-subtext {
+    font-size: 16px;
+    line-height: 120%;
+  }
 
   /*----- Image Bottom of Main RESPONSIVE - 600-----*/
   #main-img-bottom {
