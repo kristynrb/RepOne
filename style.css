@@ -3,6 +3,68 @@ html, body {
   margin: 0;
 }
 
+/*----- Get More for Less -----*/
+#main-more-for-less {
+  /*Border for testing only*/
+  /*border: 1px dashed red;*/
+
+  min-height: 600px;
+  position: relative;
+}
+
+#more-for-less-text-box{
+  position: absolute;
+  left: 5%;
+  margin-top: 15%;
+  width: 33%;
+}
+
+.more-for-less-header {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: auto;
+  line-height: 100%;
+}
+
+.more-for-less-subtext {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0;
+}
+
+#more-for-less-prices {
+  /*Border for testing only*/
+  /*border: 1px dashed blue;*/
+  position: absolute;
+  left: 40%;
+  margin-top: 20%;
+  width: 30%;
+  height: 400px;
+  font-size: 18px;
+}
+
+#rep-one {
+  color: #e72a32;
+  border-bottom: 1px solid #e72a32;
+}
+
+#rep-one-price {
+  font-weight: bold;
+}
+
+.more-for-less-price-header {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+  border-bottom: 1px solid grey;
+}
+
+.more-for-less-price-prices {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 /*----- Hard Rules -----*/
 hr {
   width: 90%;
@@ -130,6 +192,23 @@ hr {
 
 @media (max-width: 800px) {
 
+  /*----- Get More for Less - RESPONSIVE - 800-----*/
+  #main-more-for-less {
+    min-height: 500px;
+  }
+
+  .more-for-less-header {
+    font-size: 50px;
+  }
+
+  .more-for-less-subtext {
+    font-size: 18px;
+  }
+
+  #more-for-less-prices {
+    font-size: 16px;
+  }
+
   /*----- Your Own Crew - RESPONSIVE - 800-----*/
   #main-crew {
     /*Border for testing only*/
@@ -187,6 +266,24 @@ hr {
 }
 
 @media (max-width: 600px) {
+
+  /*----- Get More for Less - RESPONSIVE - 600-----*/
+  #main-more-for-less {
+    min-height: 400px;
+  }
+
+  .more-for-less-header {
+    font-size: 30px;
+  }
+
+  .more-for-less-subtext {
+    font-size: 16px;
+  }
+
+  #more-for-less-prices {
+    font-size: 15px;
+    height: 300px;
+  }
 
   /*----- Your Own Crew - RESPONSIVE - 600-----*/
   #main-crew {
