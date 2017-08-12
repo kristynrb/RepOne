@@ -6,7 +6,7 @@ html, body {
 /*----- Your Own Crew -----*/
 #main-crew {
   /*Border for testing only*/
-  border: 1px dashed red;
+  /*border: 1px dashed red;*/
   min-height: 800px;
   position: relative;
 }
@@ -128,7 +128,7 @@ html, body {
   /*----- Your Own Crew - RESPONSIVE - 800-----*/
   #main-crew {
     /*Border for testing only*/
-    border: 1px dashed blue;
+    /*border: 1px dashed blue;*/
     min-height: 700px;
   }
 
@@ -138,7 +138,6 @@ html, body {
 
   .crew-subtext {
     font-size: 18px;
-    line-height: 125%;
   }
 
   /*----- Image Bottom of Main RESPONSIVE - 800-----*/
@@ -184,10 +183,10 @@ html, body {
 
 @media (max-width: 600px) {
 
-  /*----- Your Own Crew - RESPONSIVE - 800-----*/
+  /*----- Your Own Crew - RESPONSIVE - 600-----*/
   #main-crew {
     /*Border for testing only*/
-    border: 1px dashed yellow;
+    /*border: 1px dashed yellow;*/
     min-height: 500px;
   }
 
@@ -197,7 +196,6 @@ html, body {
 
   .crew-subtext {
     font-size: 16px;
-    line-height: 120%;
   }
 
   /*----- Image Bottom of Main RESPONSIVE - 600-----*/
