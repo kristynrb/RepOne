@@ -3,17 +3,23 @@ html {
 }
 
 .testimonials {
+  /*Border for testing only
+  border: 1px dashed red;*/
+
+  min-height: 225px;
+  margin-top: 50px;
   margin-left: 15%;
   margin-right: 15%;
+  position: relative;
+  overflow: hidden;
 }
 
 .testimonials-img-container {
-  /*width: 20%;
-  height: 20%;*/
   width: 200px;
   height: 200px;
   background-size: cover;
   display: block;
+  z-index: -1;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -42,11 +48,73 @@ html {
 }
 
 .testimonials-quote {
-  font-weight: light;
+  font-weight: 300;
+  position: absolute;
+  top: 45px;
+  left: 190px;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 .testimonials-name{
-  font-weight: light;
+  font-weight: 300;
   font-style: italic;
   color: #e72a32;
+  line-height: 45px;
+}
+
+/*------ Responsive Design ---------*/
+
+@media (max-width: 800px) {
+  .testimonials {
+    /*Border for testing only*/
+    /*border: 1px dashed blue;*/
+
+    min-height: 200px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+  }
+
+  .testimonials-img-container {
+    width: 175px;
+    height: 175px;
+  }
+
+  .testimonials-quote {
+    font-weight: 300;
+    position: absolute;
+    top: 35px;
+    left: 170px;
+    font-size: 18px;
+    line-height: 125%;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    /*Border for testing only*/
+    /*border: 1px dashed purple;*/
+
+    min-height: 200px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+  }
+
+  .testimonials-img-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .testimonials-quote {
+    font-weight: 300;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    font-size: 16px;
+    line-height: 120%;
+  }
 }
