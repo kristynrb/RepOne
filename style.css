@@ -188,6 +188,34 @@ hr {
   line-height: 45px;
 }
 
+footer {
+  height: 350px;
+  background-color: #1e1e1e;
+  width: 100%;
+  position: relative;
+}
+
+#footer-logo {
+  color: #ffffff;
+  text-align: center;
+}
+
+#footer-social-media {
+  position: absolute;
+  display: inline;
+  bottom: 2%;
+  right: 5%;
+}
+
+#footer-copyright {
+  position: absolute;
+  color: #ffffff;
+  display: inline;
+  margin: 0;
+  bottom: 2%;
+  margin-left: 15%;
+}
+
 /*------ Responsive Design ---------*/
 
 @media (max-width: 800px) {
@@ -339,4 +367,22 @@ hr {
     font-size: 16px;
     line-height: 120%;
   }
+
+  /*----- Footer - RESPONSIVE - 600-----*/
+  footer {
+    height: 150px;
+  }
+
+  #footer-social-media {
+    bottom: 20%;
+    text-align: center;
+    /*right: auto;
+    left: auto;*/
+    display: block;
+  }
+
+  #footer-copyright {
+    display: block;
+    text-align: center;
+ }
 }
