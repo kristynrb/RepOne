@@ -5,7 +5,8 @@ html, body {
 
 /*----- Find Your Perfect Program -----*/
 #main-perfect {
-  border: 1px dashed blue;
+  /*Border for development only*/
+  /*border: 1px dashed blue;*/
 
   min-height: 500px;
   position: relative;
@@ -31,25 +32,33 @@ html, body {
   position: absolute;
   margin-left: 40%;
   padding: 30px;
-  bottom: 20%;
+  bottom: 40%;
+  display: block;
 }
 
 #perfect-program-bullet-points {
-  border: 1px dashed green;
+  /*Background color only for development*/
+  /*background-color: lightyellow;*/
 
-  margin: 0 15% 0 15%;
   position: absolute;
   bottom: 10%;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 .perfect-program-points {
-  border: 1px dashed brown;
+  /*Border for development only*/
+  /*border: 1px dashed brown;*/
 
   margin: 0;
   padding: 0;
   width: 44%;
+  height: 90px;
   display: inline-block;
   padding: 2%;
+  vertical-align: top;
 }
 
 /*----- Get More for Less -----*/
