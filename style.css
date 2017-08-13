@@ -3,6 +3,55 @@ html, body {
   margin: 0;
 }
 
+/*----- Find Your Perfect Program -----*/
+#main-perfect {
+  border: 1px dashed blue;
+
+  min-height: 500px;
+  position: relative;
+}
+
+.perfect-program-header {
+  min-height: 120px;
+  min-width: 200px;
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 100%;
+
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  border-right: 1px solid red;
+  -moz-border-top-right-radius: 90px;
+  -moz-border-bottom-right-radius: 90px;
+  -webkit-border-top-right-radius: 90px;
+  -webkit-border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+
+  position: absolute;
+  margin-left: 40%;
+  padding: 30px;
+  bottom: 20%;
+}
+
+#perfect-program-bullet-points {
+  border: 1px dashed green;
+
+  margin: 0 15% 0 15%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.perfect-program-points {
+  border: 1px dashed brown;
+
+  margin: 0;
+  padding: 0;
+  width: 44%;
+  display: inline-block;
+  padding: 2%;
+}
+
 /*----- Get More for Less -----*/
 #main-more-for-less {
   /*Border for testing only*/
@@ -241,7 +290,38 @@ footer {
 
 /*------ Responsive Design ---------*/
 
+@media (max-width: 1080px) {
+
+  /*----- Find Your Perfect Program - RESPONSIVE - 1080-----*/
+  .perfect-program-header {
+    font-size: 55px;
+  }
+}
+
+/*----- Find Your Perfect Program - RESPONSIVE - 980-----*/
+@media (max-width: 980px) {
+  .perfect-program-header {
+    font-size: 50px;
+  }
+}
+
+/*----- Find Your Perfect Program - RESPONSIVE - 900-----*/
+@media (max-width: 900px) {
+  .perfect-program-header {
+    font-size: 40px;
+    min-height: 60px;
+    min-width: 120px;
+  }
+}
+
 @media (max-width: 800px) {
+
+  /*----- Find Your Perfect Program - RESPONSIVE - 800-----*/
+    .perfect-program-header {
+      font-size: 30px;
+      min-height: 50px;
+      min-width: 120px;
+    }
 
   /*----- Get More for Less - RESPONSIVE - 800-----*/
   #main-more-for-less {
@@ -317,6 +397,13 @@ footer {
 }
 
 @media (max-width: 600px) {
+
+  /*----- Find Your Perfect Program - RESPONSIVE - 600-----*/
+    .perfect-program-header {
+      font-size: 18px;
+      min-height: 50px;
+      min-width: 120px;
+    }
 
   /*----- Get More for Less - RESPONSIVE - 600-----*/
   #main-more-for-less {
