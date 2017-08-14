@@ -3,6 +3,31 @@ html, body {
   margin: 0;
 }
 
+/*----- Image for Top of Main  -----*/
+#main-img-top {
+  min-height: 700px;
+  position: relative;
+  background-color: red;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+#img-top-header {
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 70px;
+  line-height: 120%;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#img-top-subtext {
+  padding-top: 1%;
+}
+
 /*----- Smart Device, Smart Training  -----*/
 #main-smart {
   /*Border for development only*/
@@ -341,7 +366,9 @@ footer {
   margin-left: 15%;
 }
 
-/*------ Responsive Design ---------*/
+/*--------------------------------------*/
+/*-------- Responsive Design -----------*/
+/*--------------------------------------*/
 
 @media (max-width: 1080px) {
 
@@ -358,8 +385,20 @@ footer {
   }
 }
 
-/*----- Find Your Perfect Program - RESPONSIVE - 900-----*/
 @media (max-width: 900px) {
+
+  /*----- Image for Top of Main - RESPONSIVE - 900-----*/
+  #main-img-top {
+    min-height: 575px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  #img-top-header {
+    font-size: 65px;
+  }
+
+  /*----- Find Your Perfect Program - RESPONSIVE - 900-----*/
   .perfect-program-header {
     font-size: 40px;
     min-height: 60px;
@@ -368,6 +407,20 @@ footer {
 }
 
 @media (max-width: 800px) {
+
+  /*----- Image for Top of Main - RESPONSIVE - 800-----*/
+  #main-img-top {
+    min-height: 550px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  #img-top-header {
+    font-size: 60px;
+  }
+
+  #img-top-subtext {
+  }
 
   /*----- Smart Device, Smart Training -  RESPONSIVE - 800-----*/
   #main-smart {
@@ -468,9 +521,35 @@ footer {
   }
 }
 
+
+@media (max-width: 750px) {
+
+  /*----- Image for Top of Main - RESPONSIVE - 750-----*/
+  #main-img-top {
+    min-height: 450px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  #img-top-header {
+    font-size: 50px;
+  }
+}
+
 @media (max-width: 600px) {
 
-  /*----- Smart Device, Smart Training -  RESPONSIVE - 800-----*/
+  /*----- Image for Top of Main - RESPONSIVE - 600-----*/
+  #main-img-top {
+    min-height: 350px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  #img-top-header {
+    font-size: 30px;
+  }
+
+  /*----- Smart Device, Smart Training -  RESPONSIVE - 600-----*/
   #main-smart {
     /*Border for development only*/
     border: 1px dashed red;
