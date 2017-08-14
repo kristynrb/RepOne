@@ -4,6 +4,37 @@ html, body {
 }
 
 /*----- Image for Top of Main  -----*/
+#nav-top {
+  height: 100px;
+  width: 100%;
+}
+
+#nav-logo {
+  margin-left: 5%;
+  display: inline-block;
+  padding-right: 10%;
+}
+
+#nav-link-bar {
+  display: inline-block;
+  padding-left: 10%;
+  margin-right: 5%;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e72a32;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#nav-button {
+  display: inline-block;
+}
+
+/*----- Image for Top of Main  -----*/
 #main-img-top {
   min-height: 650px;
   position: relative;
@@ -336,18 +367,20 @@ hr {
   margin-bottom: 7%;
 }
 
-#call-to-action-button {
+.button {
   color: #ffffff;
   background-color: #1e1e1e;
   width: 150px;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 300;
   text-align: center;
   padding: 10px;
   border-radius: 500px;
-  margin: auto;
+}
 
+#call-to-action-text {
+  text-transform: uppercase;
+  margin: auto;
 }
 
 /*----- Footer -----*/
