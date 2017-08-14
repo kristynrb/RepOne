@@ -5,7 +5,7 @@ html, body {
 
 /*----- Image for Top of Main  -----*/
 #main-img-top {
-  min-height: 700px;
+  min-height: 650px;
   position: relative;
   background-color: red;
   border-bottom-left-radius: 45%;
@@ -27,6 +27,19 @@ html, body {
 #img-top-subtext {
   padding-top: 1%;
 }
+
+#chevron-box {
+  width: 100%;
+  bottom: 10%;
+  position: absolute;
+}
+
+#chevron-down {
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+
 
 /*----- Smart Device, Smart Training  -----*/
 #main-smart {
@@ -373,6 +386,10 @@ footer {
 @media (max-width: 1080px) {
 
   /*----- Find Your Perfect Program - RESPONSIVE - 1080-----*/
+  #main-img-top {
+    min-height: 590px;
+  }
+
   .perfect-program-header {
     font-size: 55px;
   }
@@ -380,6 +397,10 @@ footer {
 
 /*----- Find Your Perfect Program - RESPONSIVE - 980-----*/
 @media (max-width: 980px) {
+  #main-img-top {
+    min-height: 580px;
+  }
+
   .perfect-program-header {
     font-size: 50px;
   }
@@ -420,6 +441,10 @@ footer {
   }
 
   #img-top-subtext {
+  }
+
+  #chevron-down {
+    height: 40px;
   }
 
   /*----- Smart Device, Smart Training -  RESPONSIVE - 800-----*/
@@ -540,13 +565,17 @@ footer {
 
   /*----- Image for Top of Main - RESPONSIVE - 600-----*/
   #main-img-top {
-    min-height: 350px;
+    min-height: 300px;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
   }
 
   #img-top-header {
     font-size: 30px;
+  }
+
+  #chevron-down {
+    height: 30px;
   }
 
   /*----- Smart Device, Smart Training -  RESPONSIVE - 600-----*/
