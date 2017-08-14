@@ -94,10 +94,15 @@ html, body {
   margin: 0;
   padding: 0;
   width: 44%;
+  max-width: 300px;
   height: 90px;
   display: inline-block;
   padding: 2%;
   vertical-align: top;
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
 }
 
 /*----- Get More for Less -----*/
@@ -386,6 +391,10 @@ footer {
       min-width: 120px;
     }
 
+    .perfect-program-points {
+      font-size: 18px;
+    }
+
   /*----- Get More for Less - RESPONSIVE - 800-----*/
   #main-more-for-less {
     min-height: 500px;
@@ -481,6 +490,10 @@ footer {
       font-size: 18px;
       min-height: 50px;
       min-width: 120px;
+    }
+
+    .perfect-program-points {
+      font-size: 16px;
     }
 
   /*----- Get More for Less - RESPONSIVE - 600-----*/
